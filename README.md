@@ -1,2 +1,2 @@
 # expense-tracker
-Improve your budgeting with our industry leading financial tool.
+Improve your spending habits by leveraging an industry leading financial tool.
