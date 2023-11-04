@@ -1,4 +1,3 @@
-import ExpenseItem from "./ExpenseItem";
 import ExpensesFilter from "../NewExpense/ExpensesFilter";
 import ExpensesList from "./ExpensesList";
 import Card from "../UI/Card";
@@ -6,7 +5,7 @@ import { useState } from "react";
 import ExpenseChart from "./ExpensesChart";
 
 function Expenses(props) {
-  const [yearChoice, setyearChoice] = useState("2020");
+  const [yearChoice, setyearChoice] = useState("2023");
 
   const saveYearHandler = (expenseYear) => {
     console.log(expenseYear);

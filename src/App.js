@@ -8,9 +8,9 @@ document.title= 'Expense Tracker';
 const dummyExpensesArray = [
   {
     id: "e1",
-    title: "Toilet paper",
-    amount: 50.67,
-    date: new Date(2023, 6, 19),
+    title: "Build and host new projects",
+    amount: 500.67,
+    date: new Date(2023, 10, 4),
   },
  
   {
@@ -37,6 +37,12 @@ const dummyExpensesArray = [
     amount: 50.67,
     date: new Date(2022, 6, 19),
   },
+  {
+    id: "e6",
+    title: "Groceries",
+    amount: 250.67,
+    date: new Date(2022, 6, 23),
+  }
 ];
 
 function App() {
