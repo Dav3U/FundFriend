@@ -19,13 +19,29 @@
   }
   
   .chart-bar__fill {
-    background-color: #0086f4;
+    background-color: #0067bc;
     width: 100%;
     transition: all 0.3s ease-out;
   }
   
   .chart-bar__label {
-    font-weight: bold;
     font-size: 0.5rem;
+  }
+  .monthlySpendValueDiv{
+      /* rotate: -30deg; */
+      margin: 0.1rem;
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      transform: rotate(-35deg);
+  }
+
+  .chart-bar__monthlySpendValue{
+    font-size: 0.6rem;
+  }
+
+  .chart-bar__label , .chart-bar__monthlySpendValue{
     text-align: center;
+    font-weight: bold;
   }

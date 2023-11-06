@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import Expenses from "./components/Expenses/Expenses";
 import "./components/Expenses/Expenses.css";
 import NewExpense from "./components/NewExpense/NewExpense";
+import Nav from "./components/Nav/Nav";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 document.title= 'Expense Tracker';
-
 const dummyExpensesArray = [
   {
     id: "e1",
-    title: "Build and host new projects",
+    title: "Build & host new projects",
     amount: 500.67,
     date: new Date(2023, 10, 4),
   },
@@ -52,12 +54,13 @@ function App() {
     setExpensesArray((prevExpensesArray) => {
       return [expense, ...prevExpensesArray];
     });
-    console.log("in app js");
-    console.log(expense);     
+    // console.log("in app js");
+    // console.log(expense);  4   
   };
   
   return (
-    <div>
+    <div className="container-fluid">
+      <Nav></Nav>
       <NewExpense onAddExpense={addExpenseHandler} />
 
       <Expenses items={expensesArray}></Expenses>

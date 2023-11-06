@@ -1,0 +1,22 @@
+.navBrand{
+    display: flex !important;
+    padding: 1rem;
+    /* border: 1px solid red !important; */
+    justify-content: center;
+    align-items: center;
+}
+
+.navName , .navLogo{
+    padding: 0.3rem;
+    margin: 0;
+}
+
+.navName{
+    padding-top: 0;
+    font-style: italic;
+    color: #FFEED9;
+}
+
+.navB{
+    justify-content: center !important;
+}
