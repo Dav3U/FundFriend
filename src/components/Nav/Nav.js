@@ -18,7 +18,7 @@ function Nav() {
               className={styles.navLogo}
             />
            <h1 className={styles.navName}>
-           expense tracker
+           FundFriend 
             </h1>
           </div>
           {/* </Navbar.Brand> */}

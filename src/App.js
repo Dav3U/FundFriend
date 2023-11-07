@@ -10,7 +10,7 @@ document.title= 'Expense Tracker';
 const dummyExpensesArray = [
   {
     id: "e1",
-    title: "Build & host new projects",
+    title: "Built & hosted new projects",
     amount: 500.67,
     date: new Date(2023, 10, 4),
   },

@@ -26,3 +26,9 @@
     /* margin-bottom: 0.5rem; */
 
   }
+
+  @media (max-width: 300px){
+    .expenses-filter label{
+      font-size: 0.6rem;
+    }
+  }

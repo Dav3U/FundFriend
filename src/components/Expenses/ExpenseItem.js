@@ -13,17 +13,17 @@ function ExpenseItem(props) {
         </Col>
 
    
-        <Col xs={10} sm={8} md={8} className=" p-0">
+        <Col xs={8} sm={8} md={8} className=" p-0">
           <h2 className="title">{props.title}</h2>
         </Col>
 
-        <Col xs={2} sm={2} md={2}  className=" p-0">
+        <Col xs={4} sm={2} md={2}  className=" p-0">
           <div className="expense-item__description">
             <div className="expense-item__price">${props.amount}</div>
           </div>
         </Col>
 
-        <Col xs={12} className="p-0 mt-3">
+        <Col xs={12} className="p-0 ">
     <ExpenseDateStripped date={props.date}>
 
     </ExpenseDateStripped>

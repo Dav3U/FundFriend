@@ -3,7 +3,7 @@
     padding: 1.5rem;
     margin: 2rem auto;
     margin-top: 0;
-    width: 50rem;
+    width: 25rem;
     max-width: 95%;
     border-radius: 12px;
     text-align: center;
@@ -63,5 +63,5 @@
 
   .new-expense .expense-row{
     text-align: center !important;
-    padding:0 !important;
+    /* padding:0 !important; */
   }
