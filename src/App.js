@@ -3,10 +3,8 @@ import Expenses from "./components/Expenses/Expenses";
 import "./components/Expenses/Expenses.css";
 import NewExpense from "./components/NewExpense/NewExpense";
 import Nav from "./components/Nav/Nav";
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
-
-document.title= 'Expense Tracker';
 const dummyExpensesArray = [
   {
     id: "e1",

@@ -7,14 +7,15 @@
 }
 
 .navName , .navLogo{
-    padding: 0.3rem;
-    margin: 0;
+    /* padding: 0.3rem; */
+    margin: 0.5rem;
 }
 
 .navName{
     padding-top: 0;
     font-style: italic;
     color: #FFEED9;
+    font-weight: bold;
 }
 
 .navB{
