@@ -1,2 +1,2 @@
 # FundFriend
-Improve your spending habits by leveraging an industry leading financial tool.
+Track and improve your expenditures by leveraging our industry leading financial tool.
