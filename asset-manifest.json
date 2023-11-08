@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/expense-tracker/static/css/main.39047d3c.css",
-    "main.js": "/expense-tracker/static/js/main.79620d7b.js",
-    "static/media/logov2.svg": "/expense-tracker/static/media/logov2.22504207f39b99fa8d1f4009c05e91bb.svg",
-    "index.html": "/expense-tracker/index.html",
-    "main.39047d3c.css.map": "/expense-tracker/static/css/main.39047d3c.css.map",
-    "main.79620d7b.js.map": "/expense-tracker/static/js/main.79620d7b.js.map"
+    "main.css": "/fund-friend/static/css/main.0cdc9ab5.css",
+    "main.js": "/fund-friend/static/js/main.0154a331.js",
+    "static/media/logov2.svg": "/fund-friend/static/media/logov2.22504207f39b99fa8d1f4009c05e91bb.svg",
+    "index.html": "/fund-friend/index.html",
+    "main.0cdc9ab5.css.map": "/fund-friend/static/css/main.0cdc9ab5.css.map",
+    "main.0154a331.js.map": "/fund-friend/static/js/main.0154a331.js.map"
   },
   "entrypoints": [
-    "static/css/main.39047d3c.css",
-    "static/js/main.79620d7b.js"
+    "static/css/main.0cdc9ab5.css",
+    "static/js/main.0154a331.js"
   ]
 }
